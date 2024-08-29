@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", system-ui;
+}
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121215;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+
+.titleBar{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+ 
+
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center; /* Center the navbar items horizontally */
+    align-items: center;
+    height: 60px; /* Set the height of the navbar */
+  }
+.navBar ul {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex;
+    gap: 20px; /* Space between items */
+  }
+
+  .navBar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 16px; /* Adjust the font size */
+    font-family: "Inter Tight", system-ui;
+    font-weight: 500;
+    padding: 10px; /* Add padding for larger clickable area */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+
+  .recLogo{
+    width: 150px;
+  }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.centerBox h1{
+    font-family: "Sacramento", cursive;
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    
+}
